@@ -1,0 +1,11 @@
+<launch>
+
+    <node name="fred_feedback" 
+        pkg="fred_interface_manager" 
+        type="feedback.py"
+        output="screen"
+        >
+        
+    </node>
+          
+</launch>
